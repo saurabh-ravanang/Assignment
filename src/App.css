@@ -37,6 +37,70 @@
   }
 }
 
-.userList{
-  text-align: center;
+/* my bootstrap navbar */
+form{
+  position: relative;
+  margin-right: 100px;
+}
+form img{
+  border-radius: 50%;
+}
+.mainCon{
+  margin-top: 100px;
+}
+.num{
+  position: absolute;
+  top: 0;
+  left: 30px;
+  background-color: red;
+  color: white;
+}
+.sum{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+}
+.brandName{
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.cardImg{
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin: auto;
+}
+.card{
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+.card:hover{
+  transition: .5s;
+  transform: translateY(-10px);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+}
+.mainBtn{
+  display: flex;
+  justify-content: space-between;
+}
+.fa-solid{
+  color: white;
+  font-size: 30px;
+}
+.price{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.band{
+  background-color: rgb(160, 49, 49);
+  color: white;
+  padding: 8px;
+}
+.productHeadline{
+  margin-top: 70px;
 }
